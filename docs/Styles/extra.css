@@ -1,0 +1,143 @@
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 10px; /* Adjust to your preferred roundness */
+  max-width: 800px;      /* Set to your preferred width */
+  
+}
+
+a.back-button.md-button {
+  position: fixed;
+  top: 5rem;
+  left: 1rem;
+  z-index: 9999;
+  background: transparent;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+  text-decoration: none;
+}
+
+a.back-button.md-button:focus,
+a.back-button.md-button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a.back-button.md-button:hover {
+  background: transparent !important;
+  color: inherit; /* Optional: keep text color unchanged */
+  box-shadow: none !important;
+}
+
+.admonition-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.admonition-container .admonition {
+  flex: 1;
+  min-width: 300px; /* Optional: Controls how small each can shrink */
+}
+
+.custom-inline-nav {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.custom-inline-nav a {
+  text-decoration: none;
+  color: var(--md-primary-fg-color); /* uses your theme’s primary link color */
+  margin: 0 0.5rem;
+}
+
+.custom-inline-nav a:hover {
+  text-decoration: underline;
+}
+
+.md-typeset .tabbed-set {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+
+
+
+
+.testing {
+  border-collapse: collapse; /* neat borders */
+  width: 80%;                /* make table a bit wider */
+  margin: 20px auto;          /* center the table */
+ 
+  border: 2px solid;
+}
+
+.testing th,
+.testing td {
+  border: 1px solid #333; /* borders for each cell */
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.testing th {
+  background-color: orange; /* header background */
+  color: black;             /* header text */
+}
+
+.testing{
+  white-space: nowrap;
+}
+.mark-red {
+  background: #ffb3b3;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.mark-green {
+  background: #05f46d;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.mark-blue {
+  background: #7cb5f1;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* test*/
+
+body { font-family: Arial, sans-serif; padding: 20px; }
+    .question { margin-bottom: 15px; }
+    .options button {
+        display: block;
+        margin: 5px 0;
+        padding: 8px 12px;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+    }
+    .options button.correct { background-color: #a4f9a4; border-color: #4caf50; }
+    .options button.wrong { background-color: #f9a4a4; border-color: #f44336; }
+    #score { margin-top: 20px; font-weight: bold; }
+
+/* Code Block Highlighting */
+
+.code-hl {
+  background: #fff3a3;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+.code-h2 {
+  background: #9fc4f5;
+  border-radius: 3px;
+  padding: 0 2px;
+}
